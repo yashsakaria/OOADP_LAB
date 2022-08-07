@@ -16,6 +16,7 @@ public class BridgePatternDemo {
 		Customer currentCustomer = null;
 		
 		while(true) {
+			currentCustomer = null;
 			
 			float totalAmount = 0f;
 			float totalDiscount = 0f;
